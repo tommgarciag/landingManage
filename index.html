@@ -8,21 +8,26 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <!-- Header -->
     <header>
-      <img src="img/bg-tablet-pattern.svg" alt="" class="bg-pattern">
-      <img src="img/logo.svg" alt="Logo Manage" />
-      <nav>
-        <ul>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Community</a></li>
-        </ul>
-      </nav>
-      <button class="btn-primary">Get Started</button>
+      <div class="container">
+        <!-- <img src="img/bg-tablet-pattern.svg" alt="" class="bg-pattern"> -->
+        <img src="img/logo.svg" alt="Logo Manage" />
+        <nav>
+          <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </nav>
+        <button class="btn-primary">Get Started</button>
+      </div>      
     </header>
+    <!-- Main -->
     <main>
+      <!-- Home section -->
       <section class="home">
         <div>
           <h1>Bring everyone together to build better products.</h1>
@@ -31,28 +36,30 @@
         </div>
         <img src="img/illustration-intro.svg" alt="Ilustracion Home">
       </section>
+
+      <!-- About us section -->
       <section class="about-us">
-          <div class="about-us-head">
+          <div class="head">
             <h2>What´s different about Manage?</h2>
             <p>Manage provides all the functionality your teas needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
           </div>
-          <div class="about-us-info">
-              <div class="about-us-info-card">
-                <button class="btn-primary">1</button>
+          <div class="info">
+              <div class="info-card">
+                <button class="btn-primary">01</button>
                 <div>
                   <h3>Track company-wide progress</h3>
                   <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
                 </div>                
               </div>
-              <div class="about-us-info-card">
-                <button class="btn-primary">2</button>
+              <div class="info-card">
+                <button class="btn-primary">02</button>
                 <div>
                   <h3>Advance built-in reports</h3>
                   <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
                 </div>                
               </div>
-              <div class="about-us-info-card">
-                <button class="btn-primary">3</button>
+              <div class="info-card">
+                <button class="btn-primary">03</button>
                 <div>
                   <h3>Everything you need in one place</h3>
                   <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
@@ -60,6 +67,8 @@
               </div>              
           </div>
       </section>
+
+      <!-- Testimonial section -->
       <section class="testimonial">
           <h3>What they´ve said</h3>
           <div class="testimonial-cards">
@@ -82,48 +91,49 @@
           <button class="btn-primary">Get Started</button>
       </section>
       <section class="banner">
+        <div class="container">
           <h4>Simplify hoy your team words today.</h4>
           <button class="btn-secondary">Get Started</button>
+        </div>          
       </section>
     </main>
+
+    <!-- Footer -->
     <footer>
-      <div>
-        <img src="img/sublogo.svg" alt="Logo Manage" />  
-        <div class="social-media-links">
-          <a href="#"><img src="img/icon-facebook.svg" alt="Icono de Facebook"></a>
-          <a href="#"><img src="img/icon-youtube.svg" alt="Icono de Youtube"></a>
-          <a href="#"><img src="img/icon-twitter.svg" alt="Icono de Twitter"></a>
-          <a href="#"><img src="img/icon-pinterest.svg" alt="Icono de Pinterest"></a>
-          <a href="#"><img src="img/icon-instagram.svg" alt="Icono de Instagram"></a>
+      <div class="container">
+        <div>
+          <img src="img/sublogo.svg" alt="Logo Manage" />  
+          <div class="social-media-links">
+            <a href="#"><img src="img/icon-facebook.svg" alt="Icono de Facebook"></a>
+            <a href="#"><img src="img/icon-youtube.svg" alt="Icono de Youtube"></a>
+            <a href="#"><img src="img/icon-twitter.svg" alt="Icono de Twitter"></a>
+            <a href="#"><img src="img/icon-pinterest.svg" alt="Icono de Pinterest"></a>
+            <a href="#"><img src="img/icon-instagram.svg" alt="Icono de Instagram"></a>
+          </div> 
+        </div>       
+        <div class="subnav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
         </div> 
-      </div>
-       
-      <div class="subnav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">About Us</a></li>
-        </ul>
-      </div> 
-
-      <div>
-        <ul>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Privicy Policy</a></li>
-        </ul>        
-      </div>
-
-      <div class="copyright">
-        <form action="">
-          <input type="text" placeholder="Update in your inbox...">
-          <button class="btn-primary">Go</button>
-        </form>
-        <p>Copyright 2020. All Rights Reserved</p>
-      </div>
-      
-        
+        <div>
+          <ul>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Privicy Policy</a></li>
+          </ul>        
+        </div>
+        <div class="copyright">
+          <form action="">
+            <input type="text" placeholder="Update in your inbox...">
+            <button class="btn-primary">Go</button>
+          </form>
+          <p>Copyright 2020. All Rights Reserved</p>
+        </div>
+      </div>                  
     </footer>
   </body>
 </html>
